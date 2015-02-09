@@ -1,0 +1,57 @@
+Virtual User Script started
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action RoutePublication.
+RoutePublication.c(14): ***TRANSACTION START TIME = 2009-02-04 22:05:20 24300
+RoutePublication.c(16): Notify: Transaction "I1SSLIntegration" started.
+RoutePublication.c(18): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+RoutePublication.c(26): Web service call "publishRoute_101" started
+RoutePublication.c(26): Web service call "publishRoute_101" was successful
+RoutePublication.c(64): Notify: Transaction "I1SSLIntegration" ended with "Pass" status (Duration: 1.4101 Wasted Time: 0.9540).
+Ending action RoutePublication.
+Ending iteration 1.
+Starting iteration 2.
+Starting action RoutePublication.
+RoutePublication.c(14): ***TRANSACTION START TIME = 2009-02-04 22:05:22 24301
+RoutePublication.c(16): Notify: Transaction "I1SSLIntegration" started.
+RoutePublication.c(18): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+RoutePublication.c(26): Web service call "publishRoute_101" started
+RoutePublication.c(26): Web service call "publishRoute_101" was successful
+RoutePublication.c(64): Notify: Transaction "I1SSLIntegration" ended with "Pass" status (Duration: 0.5015 Wasted Time: 0.0543).
+Ending action RoutePublication.
+Ending iteration 2.
+Starting iteration 3.
+Starting action RoutePublication.
+RoutePublication.c(14): ***TRANSACTION START TIME = 2009-02-04 22:05:24 24302
+RoutePublication.c(16): Notify: Transaction "I1SSLIntegration" started.
+RoutePublication.c(18): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+RoutePublication.c(26): Web service call "publishRoute_101" started
+RoutePublication.c(26): Web service call "publishRoute_101" was successful
+RoutePublication.c(64): Notify: Transaction "I1SSLIntegration" ended with "Pass" status (Duration: 0.3420 Wasted Time: 0.0268).
+Ending action RoutePublication.
+Ending iteration 3.
+Starting iteration 4.
+Starting action RoutePublication.
+RoutePublication.c(14): ***TRANSACTION START TIME = 2009-02-04 22:05:24 24303
+RoutePublication.c(16): Notify: Transaction "I1SSLIntegration" started.
+RoutePublication.c(18): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+RoutePublication.c(26): Web service call "publishRoute_101" started
+RoutePublication.c(26): Web service call "publishRoute_101" was successful
+RoutePublication.c(64): Notify: Transaction "I1SSLIntegration" ended with "Pass" status (Duration: 0.2863 Wasted Time: 0.0195).
+Ending action RoutePublication.
+Ending iteration 4.
+Starting iteration 5.
+Starting action RoutePublication.
+RoutePublication.c(14): ***TRANSACTION START TIME = 2009-02-04 22:05:25 24304
+RoutePublication.c(16): Notify: Transaction "I1SSLIntegration" started.
+RoutePublication.c(18): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+RoutePublication.c(26): Web service call "publishRoute_101" started
+RoutePublication.c(26): Web service call "publishRoute_101" was successful
+RoutePublication.c(64): Notify: Transaction "I1SSLIntegration" ended with "Pass" status (Duration: 0.4027 Wasted Time: 0.0162).
+Ending action RoutePublication.
+Ending iteration 5.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.

@@ -1,0 +1,112 @@
+
+2008-12-22 14:35:46,996 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 14:35:46,996 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 14:35:46,996 TRACE  [3]  Line#:0     Method:Logging.BlockTracer.SetConfigurationGroup  -- Enter SetConfigurationGroup 
+2008-12-22 14:35:46,996 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 14:35:46,996 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, EndpointGroupKey, Name, Description, GroupType, IsArchived  from EndpointGroup where upper(Name) in (:0)  and (1=1) '
+  Argument: 'Name' = 'PG 104'
+ 
+2008-12-22 14:35:46,996 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 14:35:46,996 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 14:35:46,996 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 14:35:46,996 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, ConfigurationGroupKey, EndpointGroupKey, StoredFileKey, FamilyKey, VersionKey, TimeOfUseProgramKey, EditTime, DeviceClassKey, TimeZoneKey  from ConfigurationGroup where EndpointGroupKey in (:0,:1,:2)  and (1=1) '
+  Argument: 'EndpointGroupKey' = '3203'
+  Argument: 'EndpointGroupKey' = '3204'
+  Argument: 'EndpointGroupKey' = '3652'
+ 
+2008-12-22 14:35:46,996 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 14:35:46,996 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 14:35:47,011 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 14:35:47,011 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, EndpointGroupKey, Name, Description, GroupType, IsArchived  from EndpointGroup where EndpointGroupKey = :0'
+  Argument: 'EndpointGroupKey' = '3652'
+ 
+2008-12-22 14:35:47,011 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 14:35:47,011 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 14:35:47,011 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 14:35:47,011 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, SecurityCodeKey, DeviceClassKey, IsCurrent, StoredFileKey  from SecurityCode'
+ 
+2008-12-22 14:35:47,011 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 14:35:47,011 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 14:35:47,011 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 14:35:47,011 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, NodeKey, SerialNumber, ElectronicSerialNumber, DeviceClassKey, SecurityCodeKey, ApTitle, NativeAddress, RelayKey, LastReadTime, InstallationTime, C1222NodeQualifier, MCHInstanceId, NextRegistrationDue, Identification, HardwareVersion, HardwareRevision, MinutesOnBattery, Registered, LastDeregistrationTime, ContactTriesOk, ContactTriesFailed  from Node where upper(ElectronicSerialNumber) in (:0)  and (1=1) '
+  Argument: 'ElectronicSerialNumber' = '2.16.840.1.114416.1.8.4424455'
+
+2008-12-22 16:58:15,106 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 16:58:15,106 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 16:58:15,106 TRACE  [3]  Line#:0     Method:Logging.BlockTracer.SetConfigurationGroup  -- Enter SetConfigurationGroup 
+2008-12-22 16:58:15,106 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 16:58:15,106 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, EndpointGroupKey, Name, Description, GroupType, IsArchived  from EndpointGroup where upper(Name) in (:0)  and (1=1) '
+  Argument: 'Name' = 'PG 104'
+ 
+2008-12-22 16:58:15,106 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 16:58:15,106 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, ConfigurationGroupKey, EndpointGroupKey, StoredFileKey, FamilyKey, VersionKey, TimeOfUseProgramKey, EditTime, DeviceClassKey, TimeZoneKey  from ConfigurationGroup where EndpointGroupKey in (:0,:1,:2)  and (1=1) '
+  Argument: 'EndpointGroupKey' = '3203'
+  Argument: 'EndpointGroupKey' = '3204'
+  Argument: 'EndpointGroupKey' = '3652'
+ 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, EndpointGroupKey, Name, Description, GroupType, IsArchived  from EndpointGroup where EndpointGroupKey = :0'
+  Argument: 'EndpointGroupKey' = '3652'
+ 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, SecurityCodeKey, DeviceClassKey, IsCurrent, StoredFileKey  from SecurityCode'
+ 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 16:58:15,122 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, NodeKey, SerialNumber, ElectronicSerialNumber, DeviceClassKey, SecurityCodeKey, ApTitle, NativeAddress, RelayKey, LastReadTime, InstallationTime, C1222NodeQualifier, MCHInstanceId, NextRegistrationDue, Identification, HardwareVersion, HardwareRevision, MinutesOnBattery, Registered, LastDeregistrationTime, ContactTriesOk, ContactTriesFailed  from Node where upper(ElectronicSerialNumber) in (:0)  and (1=1) '
+  Argument: 'ElectronicSerialNumber' = '2.16.840.1.114416.1.8.3338256'
+
+2008-12-22 17:38:43,481 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 17:38:43,481 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 17:38:43,481 TRACE  [3]  Line#:0     Method:Logging.BlockTracer.SetConfigurationGroup  -- Enter SetConfigurationGroup 
+2008-12-22 17:38:43,481 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 17:38:43,481 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, EndpointGroupKey, Name, Description, GroupType, IsArchived  from EndpointGroup where upper(Name) in (:0)  and (1=1) '
+  Argument: 'Name' = 'PG 102'
+ 
+2008-12-22 17:38:43,481 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 17:38:43,481 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 17:38:43,481 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 17:38:43,481 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, ConfigurationGroupKey, EndpointGroupKey, StoredFileKey, FamilyKey, VersionKey, TimeOfUseProgramKey, EditTime, DeviceClassKey, TimeZoneKey  from ConfigurationGroup where EndpointGroupKey in (:0,:1,:2,:3)  and (1=1) '
+  Argument: 'EndpointGroupKey' = '3201'
+  Argument: 'EndpointGroupKey' = '3202'
+  Argument: 'EndpointGroupKey' = '4601'
+  Argument: 'EndpointGroupKey' = '3651'
+ 
+2008-12-22 17:38:43,481 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 17:38:43,481 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 17:38:43,496 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 17:38:43,496 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, EndpointGroupKey, Name, Description, GroupType, IsArchived  from EndpointGroup where EndpointGroupKey = :0'
+  Argument: 'EndpointGroupKey' = '4601'
+ 
+2008-12-22 17:38:43,496 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 17:38:43,496 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 17:38:43,496 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 17:38:43,496 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, SecurityCodeKey, DeviceClassKey, IsCurrent, StoredFileKey  from SecurityCode'
+ 
+2008-12-22 17:38:43,496 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.System.Data.IDbCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 17:38:43,496 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBCommand.ExecuteReader  -- AmiDBCommand.ExecuteReader time: 00:00:00 
+2008-12-22 17:38:43,496 TRACE  [3]  Line#:0     Method:Wrappers.AmiDBConnection.Open  -- AmiDBConnection.Open() time: 00:00:00 
+2008-12-22 17:38:43,496 TRACE  [3]  Line#:0     Method:DataAccess.Persistable.TraceCmdAndParameters  -- Executing SQL Command: 
+'select rowid as oraRowId, NodeKey, SerialNumber, ElectronicSerialNumber, DeviceClassKey, SecurityCodeKey, ApTitle, NativeAddress, RelayKey, LastReadTime, InstallationTime, C1222NodeQualifier, MCHInstanceId, NextRegistrationDue, Identification, HardwareVersion, HardwareRevision, MinutesOnBattery, Registered, LastDeregistrationTime, ContactTriesOk, ContactTriesFailed  from Node where upper(ElectronicSerialNumber) in (:0)  and (1=1) '
+  Argument: 'ElectronicSerialNumber' = '2.16.840.1.114416.1.8.5524457'

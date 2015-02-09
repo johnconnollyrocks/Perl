@@ -1,0 +1,233 @@
+Virtual User Script started
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Update.
+Update.c(5): ***ITERATION = 1
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:33 E00000001
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Update.
+Update.c(5): ***ITERATION = 2
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:38 E00000002
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Update.
+Update.c(5): ***ITERATION = 3
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:39 E00000003
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 3.
+Starting iteration 4.
+Starting action Update.
+Update.c(5): ***ITERATION = 4
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:39 E00000004
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 4.
+Starting iteration 5.
+Starting action Update.
+Update.c(5): ***ITERATION = 5
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:45 E00000005
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 5.
+Starting iteration 6.
+Starting action Update.
+Update.c(5): ***ITERATION = 6
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:48 E00000006
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 6.
+Starting iteration 7.
+Starting action Update.
+Update.c(5): ***ITERATION = 7
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:49 E00000007
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 7.
+Starting iteration 8.
+Starting action Update.
+Update.c(5): ***ITERATION = 8
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:49 E00000008
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 8.
+Starting iteration 9.
+Starting action Update.
+Update.c(5): ***ITERATION = 9
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:51 E00000009
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 9.
+Starting iteration 10.
+Starting action Update.
+Update.c(5): ***ITERATION = 10
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:51 E00000010
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 10.
+Starting iteration 11.
+Starting action Update.
+Update.c(5): ***ITERATION = 11
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:53 E00000011
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 11.
+Starting iteration 12.
+Starting action Update.
+Update.c(5): ***ITERATION = 12
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:53 E00000012
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 12.
+Starting iteration 13.
+Starting action Update.
+Update.c(5): ***ITERATION = 13
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:54 E00000013
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 13.
+Starting iteration 14.
+Starting action Update.
+Update.c(5): ***ITERATION = 14
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:54 E00000014
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 14.
+Starting iteration 15.
+Starting action Update.
+Update.c(5): ***ITERATION = 15
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:07:59 E00000015
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 15.
+Starting iteration 16.
+Starting action Update.
+Update.c(5): ***ITERATION = 16
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:08:00 E00000016
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 16.
+Starting iteration 17.
+Starting action Update.
+Update.c(5): ***ITERATION = 17
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:08:05 E00000017
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 17.
+Starting iteration 18.
+Starting action Update.
+Update.c(5): ***ITERATION = 18
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:08:06 E00000018
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 18.
+Starting iteration 19.
+Starting action Update.
+Update.c(5): ***ITERATION = 19
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:08:09 E00000019
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 19.
+Starting iteration 20.
+Starting action Update.
+Update.c(5): ***ITERATION = 20
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:08:10 E00000020
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 20.
+Starting iteration 21.
+Starting action Update.
+Update.c(5): ***ITERATION = 21
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:08:10 E00000021
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 21.
+Starting iteration 22.
+Starting action Update.
+Update.c(5): ***ITERATION = 22
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:08:12 E00000022
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 22.
+Starting iteration 23.
+Starting action Update.
+Update.c(5): ***ITERATION = 23
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:08:12 E00000023
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 23.
+Starting iteration 24.
+Starting action Update.
+Update.c(5): ***ITERATION = 24
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:08:17 E00000024
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 24.
+Starting iteration 25.
+Starting action Update.
+Update.c(5): ***ITERATION = 25
+Update.c(6): ***TRANSACTION START TIME = 2009-01-30 23:08:18 E00000025
+Update.c(9): web_set_certificate_ex was successful  	[MsgId: MMSG-26392]
+Update.c(17): Web service call "publishMeterAsset_101" started
+Update.c(17): Web service call "publishMeterAsset_101" was successful
+Ending action Update.
+Ending iteration 25.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

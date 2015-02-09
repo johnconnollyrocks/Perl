@@ -1,0 +1,41 @@
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <CustomerConfiguration>
+          <ConfigurationEntities>
+            <Meter EffectiveStartDate="2008-12-23T17:40:40-08:00" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02226004" Status="Active" Multiplier="32.0" Model="CP1SOL5" Manufacturer="IT" PhaseCode="3Phase" LocationCode="22" DateInitialized="2008-09-17T00:00:00-08:00" InstallDate="2008-09-17T00:00:00-08:00" PTRatio="4.0" CTRatio="8.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <ReplacingLink ID="E02226004" EffectiveStartDate="2008-12-23T17:40:40-08:00" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <TaskInfo TaskOperation="Change" />
+            </Meter>
+          </ConfigurationEntities>
+        </CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:9c5678ac-5b09-4975-b67a-abcc289dfbbc</wsa:MessageID>
+      <wsa:RelatesTo>uuid:6edfd994-aff3-4a0f-b602-16462909edd2</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-9a968e62-14e5-43c3-8a1d-a5dbec630272">
+          <wsu:Created>2008-12-23T01:40:26Z</wsu:Created>
+          <wsu:Expires>2008-12-23T01:45:26Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="37917" ResultCode="Success"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 37917 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Information" Text="All new and corrected objects have now been saved." ID="22026" /&gt;
+    &lt;Message Severity="Information" Text="Task 37917 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>

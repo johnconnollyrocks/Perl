@@ -1,0 +1,341 @@
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>sJp2EbGadhGymnYRs5p2EQ==</wsse:Nonce>
+          <wsu:Created>2009-01-14T18:17:26Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228004" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="DeleteChannel" />
+              <m:RecordingDeviceLink ID="0002228004" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:ServicePointLink ID="1585243750002" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228003" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="DeleteChannel" />
+              <m:RecordingDeviceLink ID="0002228003" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:ServicePointLink ID="2824528900002" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228004" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="SetDevice" />
+              <m:ServicePointLink ID="2824528900002" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:RecordingDeviceLink ID="0002228004" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228003" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="SetDevice" />
+              <m:ServicePointLink ID="1585243750002" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:RecordingDeviceLink ID="0002228003" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:de517fe3-f4e4-4dd7-a3d1-e9b52647b5bd</wsa:MessageID>
+      <wsa:RelatesTo>uuid:198a82d6-9914-4a6c-9769-4aee59c9cb56</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-dcac9b03-5567-4383-b3e9-39b6f26511d5">
+          <wsu:Created>2009-01-14T18:17:39Z</wsu:Created>
+          <wsu:Expires>2009-01-14T18:22:39Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="49585" ResultCode="Success"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 49585 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 24 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Information" Text="All new and corrected objects have now been saved." ID="22026" /&gt;
+    &lt;Message Severity="Information" Text="Task 49585 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>sJp2EbGadhGymnYRs5p2EQ==</wsse:Nonce>
+          <wsu:Created>2009-01-14T18:17:26Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228005" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="DeleteChannel" />
+              <m:RecordingDeviceLink ID="0002228004" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:ServicePointLink ID="1585243750002" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228003" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="DeleteChannel" />
+              <m:RecordingDeviceLink ID="0002228003" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:ServicePointLink ID="2824528900002" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228005" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="SetDevice" />
+              <m:ServicePointLink ID="2824528900002" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:RecordingDeviceLink ID="0002228004" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228003" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="SetDevice" />
+              <m:ServicePointLink ID="1585243750002" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:RecordingDeviceLink ID="0002228003" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:de517fe3-f4e4-4dd7-a3d1-e9b52647b5bd</wsa:MessageID>
+      <wsa:RelatesTo>uuid:198a82d6-9914-4a6c-9769-4aee59c9cb56</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-dcac9b03-5567-4383-b3e9-39b6f26511d5">
+          <wsu:Created>2009-01-14T18:17:39Z</wsu:Created>
+          <wsu:Expires>2009-01-14T18:22:39Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="49586" ResultCode="Success"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 49585 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 24 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Information" Text="All new and corrected objects have now been saved." ID="22026" /&gt;
+    &lt;Message Severity="Information" Text="Task 49585 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>sJp2EbGadhGymnYRs5p2EQ==</wsse:Nonce>
+          <wsu:Created>2009-01-14T18:17:26Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228006" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="DeleteChannel" />
+              <m:RecordingDeviceLink ID="0002228004" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:ServicePointLink ID="1585243750002" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228003" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="DeleteChannel" />
+              <m:RecordingDeviceLink ID="0002228003" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:ServicePointLink ID="2824528900002" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228006" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="SetDevice" />
+              <m:ServicePointLink ID="2824528900002" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:RecordingDeviceLink ID="0002228004" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228003" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="SetDevice" />
+              <m:ServicePointLink ID="1585243750002" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:RecordingDeviceLink ID="0002228003" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:de517fe3-f4e4-4dd7-a3d1-e9b52647b5bd</wsa:MessageID>
+      <wsa:RelatesTo>uuid:198a82d6-9914-4a6c-9769-4aee59c9cb56</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-dcac9b03-5567-4383-b3e9-39b6f26511d5">
+          <wsu:Created>2009-01-14T18:17:39Z</wsu:Created>
+          <wsu:Expires>2009-01-14T18:22:39Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="49587" ResultCode="Success"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 49585 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 24 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Information" Text="All new and corrected objects have now been saved." ID="22026" /&gt;
+    &lt;Message Severity="Information" Text="Task 49585 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>sJp2EbGadhGymnYRs5p2EQ==</wsse:Nonce>
+          <wsu:Created>2009-01-14T18:17:26Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228007" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="DeleteChannel" />
+              <m:RecordingDeviceLink ID="0002228004" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:ServicePointLink ID="1585243750002" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228003" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="DeleteChannel" />
+              <m:RecordingDeviceLink ID="0002228003" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:ServicePointLink ID="2824528900002" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228007" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="SetDevice" />
+              <m:ServicePointLink ID="2824528900002" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:RecordingDeviceLink ID="0002228004" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228003" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="SetDevice" />
+              <m:ServicePointLink ID="1585243750002" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:RecordingDeviceLink ID="0002228003" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:de517fe3-f4e4-4dd7-a3d1-e9b52647b5bd</wsa:MessageID>
+      <wsa:RelatesTo>uuid:198a82d6-9914-4a6c-9769-4aee59c9cb56</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-dcac9b03-5567-4383-b3e9-39b6f26511d5">
+          <wsu:Created>2009-01-14T18:17:39Z</wsu:Created>
+          <wsu:Expires>2009-01-14T18:22:39Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="49588" ResultCode="Success"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 49585 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 24 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Information" Text="All new and corrected objects have now been saved." ID="22026" /&gt;
+    &lt;Message Severity="Information" Text="Task 49585 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+ <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>sJp2EbGadhGymnYRs5p2EQ==</wsse:Nonce>
+          <wsu:Created>2009-01-14T18:17:26Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228008" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="DeleteChannel" />
+              <m:RecordingDeviceLink ID="0002228004" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:ServicePointLink ID="1585243750002" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228003" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="DeleteChannel" />
+              <m:RecordingDeviceLink ID="0002228003" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:ServicePointLink ID="2824528900002" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228008" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="SetDevice" />
+              <m:ServicePointLink ID="2824528900002" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:RecordingDeviceLink ID="0002228004" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+            <m:Meter EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E02228003" MeterProgramId="0102">
+              <m:TaskInfo TaskOperation="SetDevice" />
+              <m:ServicePointLink ID="1585243750002" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+              <m:RecordingDeviceLink ID="0002228003" EffectiveStartDate="2008-11-20T19:41:24Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:de517fe3-f4e4-4dd7-a3d1-e9b52647b5bd</wsa:MessageID>
+      <wsa:RelatesTo>uuid:198a82d6-9914-4a6c-9769-4aee59c9cb56</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-dcac9b03-5567-4383-b3e9-39b6f26511d5">
+          <wsu:Created>2009-01-14T18:17:39Z</wsu:Created>
+          <wsu:Expires>2009-01-14T18:22:39Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="49589" ResultCode="Success"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 49585 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 24 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Information" Text="All new and corrected objects have now been saved." ID="22026" /&gt;
+    &lt;Message Severity="Information" Text="Task 49585 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>

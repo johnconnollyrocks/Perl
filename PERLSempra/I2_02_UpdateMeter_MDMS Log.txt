@@ -1,0 +1,1351 @@
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>mRTNXpoUzV6bFM1enBTNXg==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:33Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000001" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="IT" PhaseCode="1Phase" LocationCode="18" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000001" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>o+pvZKTqb2Sl6m9kpupvZA==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:35Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000002" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="AT" LocationCode="19" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000002" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>82KAZvRigGb1YoBm9mKAZg==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:35Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000003" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="BT" PhaseCode="3Phase" LocationCode="20" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000003" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>1BbiNdUW4jXWFuI11xbiNQ==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:41Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000004" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="CT" LocationCode="21" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000004" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:b114fce8-1506-425e-ab9d-ba1f6d05a3f9</wsa:MessageID>
+      <wsa:RelatesTo>uuid:7f10b807-93b0-493c-8c74-8ebd37f391b5</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-c2d3e2a0-03c8-4ebd-9807-412d816be0c0">
+          <wsu:Created>2009-01-30T23:07:43Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:43Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56619" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56619 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56619 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:73fdad3b-c8a3-4abc-85ef-abdcd79074f5</wsa:MessageID>
+      <wsa:RelatesTo>uuid:91f0d64a-74c9-4d8b-b7af-32843690a42f</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-84572e63-ff6d-43b7-849c-1d00d63c3197">
+          <wsu:Created>2009-01-30T23:07:43Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:43Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56618" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56618 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56618 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:4c6a93d3-62e0-48f6-8084-e80071fd2618</wsa:MessageID>
+      <wsa:RelatesTo>uuid:c688f3cf-c6ce-48d8-be06-286579ace3c7</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-cfcb3afb-54f2-4263-8a2d-9320a8cc0a64">
+          <wsu:Created>2009-01-30T23:07:42Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:42Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56617" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56617 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56617 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>seRzK7Lkcyuz5HMrtORzKw==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:44Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000005" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="DT" LocationCode="22" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000005" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>IJAONyGQDjcikA43I5AONw==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:44Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000006" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="FT" LocationCode="23" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000006" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:09c5d366-2e4d-48c7-85f2-40567a4be172</wsa:MessageID>
+      <wsa:RelatesTo>uuid:a77b2519-2b82-48f9-bce0-b984dd1b2d67</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-0fee4f50-0dad-4802-ae8f-44d1f231e45a">
+          <wsu:Created>2009-01-30T23:07:46Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:46Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56621" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56621 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56621 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>XrjyS1+48ktguPJLYbjySw==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:47Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000008" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="HT" LocationCode="25" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000008" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:911019eb-cbdc-481d-8bde-a0f9586d5a81</wsa:MessageID>
+      <wsa:RelatesTo>uuid:b9ff6be2-bd5a-4ee1-aee9-d1412fd6ab3d</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-139c31ec-92c7-4586-8ae3-52bae1179c08">
+          <wsu:Created>2009-01-30T23:07:48Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:48Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56622" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56622 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56622 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>288JadzPCWndzwlp3s8JaQ==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:48Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000007" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="GT" LocationCode="24" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000007" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:7fc9790a-1c79-4312-960c-04952397b168</wsa:MessageID>
+      <wsa:RelatesTo>uuid:806d0f8e-aae4-485c-960d-79a1b2b073d2</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-63e40a72-4f3e-4aac-84a4-55e20529f271">
+          <wsu:Created>2009-01-30T23:07:48Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:48Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56620" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56620 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56620 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>NRkuajYZLmo3GS5qOBkuag==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:48Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000010" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="JT" LocationCode="27" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000010" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:8d2d0078-241d-47a7-944d-c7a622a27e70</wsa:MessageID>
+      <wsa:RelatesTo>uuid:282bbee3-3c98-442a-b714-b6c99e69147e</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-c7f12c93-3fd0-4e64-aaf1-27d65c4206c7">
+          <wsu:Created>2009-01-30T23:07:49Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:49Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56623" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56623 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56623 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>y8CKI8zAiiPNwIojzsCKIw==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:50Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000012" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="LT" LocationCode="29" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000012" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:1ec98527-4252-43be-8492-8c533abc4ac1</wsa:MessageID>
+      <wsa:RelatesTo>uuid:2fb9926d-ae3e-437a-8f9a-6e545fae6a60</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-fb788886-45db-4c28-b6c4-7c12b12ff564">
+          <wsu:Created>2009-01-30T23:07:49Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:49Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56624" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56624 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56624 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:fb70c784-7b9b-4f44-9a33-5eb58dff8486</wsa:MessageID>
+      <wsa:RelatesTo>uuid:0ce2a237-cdce-4de3-82b7-f7bf38e5d06c</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-738f688d-9ee9-454f-a22e-ac16ff10762c">
+          <wsu:Created>2009-01-30T23:07:51Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:51Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56625" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56625 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56625 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>qEg1IqlINSKqSDUiq0g1Ig==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:51Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000009" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="IT" LocationCode="26" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000009" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:f92e4b9c-a6fd-444c-970e-7103240ecaab</wsa:MessageID>
+      <wsa:RelatesTo>uuid:8dd09e7e-3d2c-4942-839e-392ca1f946ce</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-8299790b-1088-4aef-bbb9-bf3fd6005c60">
+          <wsu:Created>2009-01-30T23:07:52Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:52Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56626" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56626 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56626 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:cf1ea025-38b8-41c1-bf71-579df10ba113</wsa:MessageID>
+      <wsa:RelatesTo>uuid:67956f72-1e17-415a-85c2-2e5497dd84b6</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-7d85e428-4fcf-462d-97e1-815efdd0581b">
+          <wsu:Created>2009-01-30T23:07:53Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:53Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56627" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56627 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56627 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>xGfUQsVn1ELGZ9RCx2fUQg==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:54Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000011" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="KT" LocationCode="28" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000011" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>M4qIADSKiAA1iogANoqIAA==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:55Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000014" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="NT" LocationCode="31" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000014" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:0bd62f9f-1956-451b-9a64-f9034b81114e</wsa:MessageID>
+      <wsa:RelatesTo>uuid:82474fab-31b2-462f-bac1-f2cbc1df2fd5</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-12790f56-2d15-4f9e-ba83-93ca25e5d6e5">
+          <wsu:Created>2009-01-30T23:07:56Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:56Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56628" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56628 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56628 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>GeiBdRrogXUb6IF1HOiBdQ==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:56Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000013" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="MT" LocationCode="30" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000013" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:c08b0fc4-1ef9-4e48-8621-799d915988ea</wsa:MessageID>
+      <wsa:RelatesTo>uuid:a0f0acb4-8e3b-46ba-a8ee-3a5acee5c465</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-b4cf205c-ff73-4e78-9983-48b521b5a663">
+          <wsu:Created>2009-01-30T23:07:57Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:57Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56629" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56629 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56629 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:88771be5-f7e2-4e06-ba6c-50c89d336e7b</wsa:MessageID>
+      <wsa:RelatesTo>uuid:2d3925e0-3f56-422f-a5f6-ba89228fd133</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-cdd51c48-5947-4e33-9d9f-6d3743e5ec44">
+          <wsu:Created>2009-01-30T23:07:58Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:12:58Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56630" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56630 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56630 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>s0AgUrRAIFK1QCBStkAgUg==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:07:59Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000015" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="OT" LocationCode="32" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000015" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:6ae1a1c1-6348-4c4e-8328-17fa8c113ed8</wsa:MessageID>
+      <wsa:RelatesTo>uuid:c179db3f-6f29-4ae1-9e17-f428d6cd03db</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-75f686c6-12ce-49bf-91f2-819e3a209a78">
+          <wsu:Created>2009-01-30T23:08:01Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:13:01Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56631" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56631 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56631 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>8iqaMfMqmjH0Kpox9SqaMQ==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:08:01Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000016" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="PT" LocationCode="33" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000016" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>I2xQbCRsUGwlbFBsJmxQbA==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:08:02Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000017" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="QT" LocationCode="34" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000017" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:9ba9a889-46ec-489b-91ac-f9eaf85e6c88</wsa:MessageID>
+      <wsa:RelatesTo>uuid:626ced8a-3287-4633-9598-9b1a12ac0458</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-80484d37-b6ad-48d6-8035-8fcd318e9b40">
+          <wsu:Created>2009-01-30T23:08:03Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:13:03Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56632" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56632 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56632 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:81217c27-d55f-493a-8efd-00d83721cd8d</wsa:MessageID>
+      <wsa:RelatesTo>uuid:52ee2ca6-b9cc-46c2-8eac-523fde968cce</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-d80b55d9-9fc9-4e8a-abba-eb187b240cb3">
+          <wsu:Created>2009-01-30T23:08:04Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:13:04Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56633" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56633 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56633 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>vXsAar57AGq/ewBqwHsAag==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:08:05Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000018" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="RT" LocationCode="35" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000018" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>N4q1KjiKtSo5irUqOoq1Kg==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:08:06Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000019" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="ST" LocationCode="36" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000019" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:394cc376-34c8-4b11-9830-42a3f65dcffd</wsa:MessageID>
+      <wsa:RelatesTo>uuid:6b2972c8-ec4a-43e6-a06f-040f6bac4ee7</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-29b9a69b-1658-4ef5-850a-e6c8486ff02c">
+          <wsu:Created>2009-01-30T23:08:07Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:13:07Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56634" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56634 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56634 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:da06fa40-6f62-427a-88cd-4d9a1ba2c030</wsa:MessageID>
+      <wsa:RelatesTo>uuid:7bd7514e-629b-47f6-83ac-f982540a15c0</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-02ded40c-c479-4aa4-b040-7ad9109d77e1">
+          <wsu:Created>2009-01-30T23:08:09Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:13:09Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56635" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56635 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56635 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>GmioLRtoqC0caKgtHWioLQ==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:08:09Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000020" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="TT" LocationCode="37" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000020" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:8fc397ea-8ac9-41ea-a355-9c7b228bbbc0</wsa:MessageID>
+      <wsa:RelatesTo>uuid:19233f0d-1ded-45cc-a418-20435f8df987</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-cb8cb247-e137-4035-bda1-ee8f47c1310c">
+          <wsu:Created>2009-01-30T23:08:11Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:13:11Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56636" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56636 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56636 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>uHSFbbl0hW26dIVtu3SFbQ==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:08:12Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000022" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="VT" LocationCode="39" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000022" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>KIjadSmI2nUqiNp1K4jadQ==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:08:13Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000021" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="UT" LocationCode="38" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000021" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>EEKAchFCgHISQoByE0KAcg==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:08:13Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000023" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="WT" LocationCode="40" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000023" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:1565002e-d7e9-4aef-a144-e8eff0dc4c8f</wsa:MessageID>
+      <wsa:RelatesTo>uuid:3e2623e4-2b94-4bce-bf53-34b8055c0526</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-a72c9877-adc5-464e-b367-89190c2262ca">
+          <wsu:Created>2009-01-30T23:08:14Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:13:14Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56637" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56637 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56637 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>iOupIInrqSCK66kgi+upIA==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:08:14Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000024" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="XT" LocationCode="41" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000024" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:f3b12461-069b-4a75-a403-d907e7d02629</wsa:MessageID>
+      <wsa:RelatesTo>uuid:6d3d8780-4c0f-477a-9276-5131fc3444c4</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-a5d3a08e-fd9a-40cd-b6f4-0d6989f21ba0">
+          <wsu:Created>2009-01-30T23:08:14Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:13:14Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56638" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56638 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56638 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:7b5449fa-7ce4-42fb-8579-1de8810684d8</wsa:MessageID>
+      <wsa:RelatesTo>uuid:e1939039-2d7c-4ac4-adad-ceb3b2c8d4b5</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-8c2492dd-91ec-4334-b2fc-e38f491ded69">
+          <wsu:Created>2009-01-30T23:08:15Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:13:15Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56639" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56639 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56639 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>TV0XXk5dF15PXRdeUF0XXg==</wsse:Nonce>
+          <wsu:Created>2009-01-30T23:08:16Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:Meter EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" MeterID="E00000025" Status="Active" Multiplier="1.0" Model="CP1SOL5" Manufacturer="WT" LocationCode="42" DateInitialized="2008-09-17T07:00:00.000Z" InstallDate="2008-09-17T07:00:00.000Z" PTRatio="1.0" CTRatio="1.0" IsCombinedMeterRecorder="false" MeterProgramId="0101">
+              <m:TaskInfo TaskOperation="Change" />
+              <m:ReplacingLink ID="E00000025" EffectiveStartDate="2008-09-22T17:30:02Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:Meter>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:df83cb5a-ffcd-4934-9761-ad64013679ee</wsa:MessageID>
+      <wsa:RelatesTo>uuid:69ae75f8-b28e-4663-88cd-4cf56de6eb4f</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-a4f0149f-7a2c-4449-9a31-ebe4d7982680">
+          <wsu:Created>2009-01-30T23:08:17Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:13:17Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56640" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56640 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56640 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:c8b6d128-badd-4244-afe7-df33314b0601</wsa:MessageID>
+      <wsa:RelatesTo>uuid:e5d23157-0ebb-404c-ba2f-ca933762656b</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-2fc71557-7fbd-42f1-8cb1-abece4dc695a">
+          <wsu:Created>2009-01-30T23:08:19Z</wsu:Created>
+          <wsu:Expires>2009-01-30T23:13:19Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="56641" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 56641 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 1 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="A version of Meter does not exist during 9/22/2008 5:30:00 PM.  Select a date that is within the Meter's effective dates." ID="15016" /&gt;
+    &lt;Message Severity="Error" Text="Could not process MeterElement request. A version of Meter does not exist for 9/22/2008 5:30:00 PM" ID="22019" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 56641 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+</log>

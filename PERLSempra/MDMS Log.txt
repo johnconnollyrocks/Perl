@@ -1,0 +1,266 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>configurationuser</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">config12#$</wsse:Password>
+          <wsse:Nonce>y/60Tcz+tE3N/rRNzv60TQ==</wsse:Nonce>
+          <wsu:Created>2009-01-20T02:20:09Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:ServicePoint ServicePointID="SP00000065">
+              <m:TaskInfo TaskOperation="CorrectRoute" />
+              <m:RouteLink ID="36" EffectiveStartDate="1970-01-01T00:00:00Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:ServicePoint>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>configurationuser</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">config12#$</wsse:Password>
+          <wsse:Nonce>E0d1JxRHdScVR3UnFkd1Jw==</wsse:Nonce>
+          <wsu:Created>2009-01-20T02:20:09Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:ServicePoint ServicePointID="SP00000066">
+              <m:TaskInfo TaskOperation="CorrectRoute" />
+              <m:RouteLink ID="37" EffectiveStartDate="1970-01-01T00:00:00Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:ServicePoint>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>configurationuser</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">config12#$</wsse:Password>
+          <wsse:Nonce>NK9XNTWvVzU2r1c1N69XNQ==</wsse:Nonce>
+          <wsu:Created>2009-01-20T02:20:10Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:ServicePoint ServicePointID="SP00000067">
+              <m:TaskInfo TaskOperation="CorrectRoute" />
+              <m:RouteLink ID="38" EffectiveStartDate="1970-01-01T00:00:00Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:ServicePoint>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>configurationuser</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">config12#$</wsse:Password>
+          <wsse:Nonce>WJB0G1mQdBtakHQbW5B0Gw==</wsse:Nonce>
+          <wsu:Created>2009-01-20T02:20:11Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:ServicePoint ServicePointID="SP00000068">
+              <m:TaskInfo TaskOperation="CorrectRoute" />
+              <m:RouteLink ID="39" EffectiveStartDate="1970-01-01T00:00:00Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:ServicePoint>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>configurationuser</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">config12#$</wsse:Password>
+          <wsse:Nonce>C12ybgxdsm4NXbJuDl2ybg==</wsse:Nonce>
+          <wsu:Created>2009-01-20T02:20:11Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:ServicePoint ServicePointID="SP00000069">
+              <m:TaskInfo TaskOperation="CorrectRoute" />
+              <m:RouteLink ID="40" EffectiveStartDate="1970-01-01T00:00:00Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:ServicePoint>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:d996deb7-bb8c-4bc0-9910-324d56e2be3e</wsa:MessageID>
+      <wsa:RelatesTo>uuid:e8dbc749-6041-4c6c-aaaa-6aa6e146aeda</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-f5decdce-49da-4f6a-bac1-741200018460">
+          <wsu:Created>2009-01-20T02:20:17Z</wsu:Created>
+          <wsu:Expires>2009-01-20T02:25:17Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="37405" ResultCode="Success"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 37405 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 2 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Information" Text="0 new entities created and looked at 1 existing entities during processing" ID="22090" /&gt;
+    &lt;Message Severity="Information" Text="All new and corrected objects have now been saved." ID="22026" /&gt;
+    &lt;Message Severity="Information" Text="Task 37405 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:275f75ad-6237-44a6-bd43-2d58083edc25</wsa:MessageID>
+      <wsa:RelatesTo>uuid:7a6f3fb0-a353-4b4d-a8fc-625675360a5e</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-27de744a-f3b6-491c-9805-c498b96895b2">
+          <wsu:Created>2009-01-20T02:20:17Z</wsu:Created>
+          <wsu:Expires>2009-01-20T02:25:17Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="37406" ResultCode="Success"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 37406 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 2 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Information" Text="0 new entities created and looked at 1 existing entities during processing" ID="22090" /&gt;
+    &lt;Message Severity="Information" Text="All new and corrected objects have now been saved." ID="22026" /&gt;
+    &lt;Message Severity="Information" Text="Task 37406 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:d8c38baa-2441-44f7-9ad4-43849e71c963</wsa:MessageID>
+      <wsa:RelatesTo>uuid:11749e8e-4ca6-4564-95f4-a31f2e9969f9</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-c31d7ec3-6ddd-47a4-afc0-ec791fa3b748">
+          <wsu:Created>2009-01-20T02:20:18Z</wsu:Created>
+          <wsu:Expires>2009-01-20T02:25:18Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="37407" ResultCode="Success"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 37407 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 2 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Information" Text="0 new entities created and looked at 1 existing entities during processing" ID="22090" /&gt;
+    &lt;Message Severity="Information" Text="All new and corrected objects have now been saved." ID="22026" /&gt;
+    &lt;Message Severity="Information" Text="Task 37407 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:b2819937-8b46-4346-a664-5a607c79c1a7</wsa:MessageID>
+      <wsa:RelatesTo>uuid:186a22be-5a97-4d47-bcd7-861b71affe61</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-329877d2-2237-43ab-a133-2950c914eea3">
+          <wsu:Created>2009-01-20T02:20:18Z</wsu:Created>
+          <wsu:Expires>2009-01-20T02:25:18Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="37408" ResultCode="Success"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 37408 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 2 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Information" Text="0 new entities created and looked at 1 existing entities during processing" ID="22090" /&gt;
+    &lt;Message Severity="Information" Text="All new and corrected objects have now been saved." ID="22026" /&gt;
+    &lt;Message Severity="Information" Text="Task 37408 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:ec8da8e0-f15b-4761-8fca-547781efef08</wsa:MessageID>
+      <wsa:RelatesTo>uuid:bbd242f0-c305-494a-b08a-a2f27dde7b02</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-5413eef5-1c64-4267-8d6c-630c14943a33">
+          <wsu:Created>2009-01-20T02:20:19Z</wsu:Created>
+          <wsu:Expires>2009-01-20T02:25:19Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="37409" ResultCode="Success"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 37409 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 2 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Information" Text="0 new entities created and looked at 1 existing entities during processing" ID="22090" /&gt;
+    &lt;Message Severity="Information" Text="All new and corrected objects have now been saved." ID="22026" /&gt;
+    &lt;Message Severity="Information" Text="Task 37409 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
+</log>

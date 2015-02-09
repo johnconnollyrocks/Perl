@@ -1,0 +1,55 @@
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:Security>
+        <wsse:UsernameToken>
+          <wsse:Username>itronee</wsse:Username>
+          <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">itronee</wsse:Password>
+          <wsse:Nonce>x4eFTsiHhU7Jh4VOyoeFTg==</wsse:Nonce>
+          <wsu:Created>2009-01-13T23:22:13Z</wsu:Created>
+        </wsse:UsernameToken>
+      </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body>
+      <m:ManageDevice xmlns:m="http://itron.com/webservices/">
+        <m:CustomerConfiguration xmlns:m="http://itron.com/webservices/">
+          <m:ConfigurationEntities>
+            <m:ServicePoint ServicePointID="7848953050003">
+              <m:TaskInfo TaskOperation="CorrectRoute" />
+              <m:RouteLink ID="14160" EffectiveStartDate="1970-01-01T00:00:00Z" EffectiveEndDate="2031-01-01T00:00:00Z" />
+            </m:ServicePoint>
+          </m:ConfigurationEntities>
+        </m:CustomerConfiguration>
+      </m:ManageDevice>
+    </soapenv:Body>
+  </soapenv:Envelope>
+  <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soap:Header>
+      <wsa:Action>http://itron.com/webservices/ImportResponse</wsa:Action>
+      <wsa:MessageID>uuid:9554ddf9-a290-4dc1-93d7-84ec5a98d751</wsa:MessageID>
+      <wsa:RelatesTo>uuid:296fc788-4ee0-4c5c-bcd0-60b382777865</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+        <wsu:Timestamp wsu:Id="Timestamp-7348c984-ae6a-436f-95ae-594a9e057661">
+          <wsu:Created>2009-01-13T23:22:25Z</wsu:Created>
+          <wsu:Expires>2009-01-13T23:27:25Z</wsu:Expires>
+        </wsu:Timestamp>
+      </wsse:Security>
+    </soap:Header>
+    <soap:Body>
+      <ImportResponse xmlns="http://itron.com/webservices/">
+        <ImportResult>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TransactionID="49562" ResultCode="Error"&gt;
+  &lt;Messages&gt;
+    &lt;Message Severity="Information" Text="Task 49562 execution is starting." ID="16017" /&gt;
+    &lt;Message Severity="Information" Text="Successfully converted input file '' to internal document instance." ID="22021" /&gt;
+    &lt;Message Severity="Debug" Text="Processing 2 requests received." ID="22018" /&gt;
+    &lt;Message Severity="Error" Text="ID is required for RouteLink." ID="22068" /&gt;
+    &lt;Message Severity="Warning" Text="Could not find the ServicePointElement 7848953050003 that was to be deleted, so it may have already been deleted." ID="22055" /&gt;
+    &lt;Message Severity="Information" Text="1 new entities created and looked at 0 existing entities during processing" ID="22090" /&gt;
+    &lt;Message Severity="Error" Text="No Data was saved because of processing errors." ID="22039" /&gt;
+    &lt;Message Severity="Error" Text="Task 49562 execution is completed." ID="16018" /&gt;
+  &lt;/Messages&gt;
+&lt;/ResultDocument&gt;</ImportResult>
+      </ImportResponse>
+    </soap:Body>
+  </soap:Envelope>
